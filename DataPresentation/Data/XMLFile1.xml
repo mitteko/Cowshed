@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Barn>
+	<cows>
+		<cow id="1">
+			<name>Белка</name>
+			<breed>Голштинская</breed>
+			<age>5</age>
+			<health>
+				<temperature>38.7</temperature>
+				<condition>Здорова</condition>
+			</health>
+			<notes>Хорошая корова</notes>
+			<FeedingSchedules>
+				<FeedingSchedule>
+					<id>1</id>
+					<CowId>1</CowId>
+					<FeedType>Сено</FeedType>
+					<Time>2024-01-01T08:00:00</Time>
+					<Amount>10</Amount>
+					<Unit>кг</Unit>
+				</FeedingSchedule>
+				<FeedingSchedule>
+					<id>2</id>
+					<CowId>1</CowId>
+					<FeedType>Комбикорм</FeedType>
+					<Time>2024-01-01T18:00:00</Time>
+					<Amount>5</Amount>
+					<Unit>кг</Unit>
+				</FeedingSchedule>
+			</FeedingSchedules>
+		</cow>
+		<cow id="2">
+			<name>Зорька</name>
+			<breed>Ярославская</breed>
+			<age>7</age>
+			<health>
+				<temperature>39.1</temperature>
+				<condition>Требует внимания</condition>
+			</health>
+			<notes>Требует особого ухода</notes>
+			<FeedingSchedules>
+				<FeedingSchedule>
+					<id>1</id>
+					<CowId>2</CowId>
+					<FeedType>Сено</FeedType>
+					<Time>2024-01-01T08:00:00</Time>
+					<Amount>10</Amount>
+					<Unit>кг</Unit>
+				</FeedingSchedule>
+				<FeedingSchedule>
+					<id>2</id>
+					<CowId>2</CowId>
+					<FeedType>Комбикорм</FeedType>
+					<Time>2024-01-01T18:00:00</Time>
+					<Amount>5</Amount>
+					<Unit>кг</Unit>
+				</FeedingSchedule>
+			</FeedingSchedules>
+		</cow>
+	</cows>
+	<stalls>
+		<stall id="1">
+			<location>Западное крыло</location>
+			<capacity>10</capacity>
+			<size>
+				<width>4.5</width>
+				<length>6.0</length>
+			</size>
+			<type>Общий</type>
+		</stall>
+		<stall id="2">
+			<location>Восточное крыло</location>
+			<capacity>8</capacity>
+			<size>
+				<width>4.0</width>
+				<length>5.5</length>
+			</size>
+			<type>Индивидуальный</type>
+		</stall>
+	</stalls>
+	<employees>
+		<employee id="1">
+			<name>Ульянка Работяга</name>
+			<role>Доярка</role>
+			<contact>
+				<phone>+79001234567</phone>
+				<email>ulyanka@example.com</email>
+			</contact>
+			<city>Когалым</city>
+		</employee>
+	</employees>
+</Barn>

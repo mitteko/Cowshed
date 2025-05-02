@@ -1,0 +1,107 @@
+// не видит этот файл, не нашла ошибку(
+{
+  "Cows": {
+    "cow": [
+      {
+        "id": 1,
+        "name": "Белка",
+        "breed": "Голштинская",
+        "age": 5,
+        "health": {
+          "temperature": 38.7,
+          "condition": "Здорова"
+        },
+        "notes": "Хорошая корова",
+        "FeedingSchedules": {
+          "FeedingSchedule": [
+            {
+              "id": 1,
+              "CowId": 1,
+              "FeedType": "Сено",
+              "Time": "2024-01-01T08:00:00",
+              "Amount": 10,
+              "Unit": "кг"
+            },
+            {
+              "id": 2,
+              "CowId": 1,
+              "FeedType": "Комбикорм",
+              "Time": "2024-01-01T18:00:00",
+              "Amount": 5,
+              "Unit": "кг"
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "name": "Зорька",
+        "breed": "Ярославская",
+        "age": 7,
+        "health": {
+          "temperature": 39.1,
+          "condition": "Требует внимания"
+        },
+        "notes": "Требует особого ухода",
+        "FeedingSchedules": {
+          "FeedingSchedule": [
+            {
+              "id": 1,
+              "CowId": 2,
+              "FeedType": "Сено",
+              "Time": "2024-01-01T08:00:00",
+              "Amount": 10,
+              "Unit": "кг"
+            },
+            {
+              "id": 2,
+              "CowId": 2,
+              "FeedType": "Комбикорм",
+              "Time": "2024-01-01T18:00:00",
+              "Amount": 5,
+              "Unit": "кг"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "Stalls": {
+    "stall": [
+      {
+        "id": 1,
+        "location": "Западное крыло",
+        "capacity": 10,
+        "size": {
+          "width": 4.5,
+          "length": 6
+        },
+        "type": "Общий"
+      },
+      {
+        "id": 2,
+        "location": "Восточное крыло",
+        "capacity": 8,
+        "size": {
+          "width": 4,
+          "length": 5.5
+        },
+        "type": "Индивидуальный"
+      }
+    ]
+  },
+  "Employees": {
+    "employee": [
+      {
+        "id": 1,
+        "name": "Ульянка Работяга",
+        "role": "Доярка",
+        "contact": {
+          "phone": "+79001234567",
+          "email": "ulyanka@example.com"
+        },
+        "city": "Когалым"
+      }
+    ]
+  }
+}
